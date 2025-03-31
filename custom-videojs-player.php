@@ -24,7 +24,7 @@ function cvjp_video_shortcode($atts) {
     $atts = shortcode_atts([
         'mp4' => '',
         'webm' => '',
-        'width' => '720',
+        'width' => 'auto',
         'height' => 'auto'
     ], $atts, 'custom_videojs_player');
     
