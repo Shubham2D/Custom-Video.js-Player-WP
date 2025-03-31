@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Custom Video.js Player
- * Plugin URI: https://github.com/your-username/Custom-Video.js-Player
+ * Plugin URI: https://github.com/Shubham2D/Custom-Video.js-Player-WP
  * Description: A simple WordPress plugin to embed a Video.js player with a shortcode.
  * Version: 1.0.0
  * Author: Shubham Sawarkar
