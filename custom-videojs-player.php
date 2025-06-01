@@ -14,8 +14,8 @@ if (!defined('ABSPATH')) exit;
 
 // Enqueue Video.js assets
 function cvjp_enqueue_scripts() {
-    wp_enqueue_style('videojs-css', 'https://vjs.zencdn.net/8.5.2/video-js.css');
-    wp_enqueue_script('videojs-js', 'https://vjs.zencdn.net/8.5.2/video.min.js', array(), null, true);
+    wp_enqueue_style('videojs-css', 'https://vjs.zencdn.net/8.21.1/video-js.css');
+    wp_enqueue_script('videojs-js', 'https://vjs.zencdn.net/8.21.1/video.min.js', array(), null, true);
 }
 add_action('wp_enqueue_scripts', 'cvjp_enqueue_scripts');
 
